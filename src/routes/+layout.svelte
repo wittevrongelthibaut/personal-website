@@ -1,4 +1,8 @@
-<header>Hi, I'm a header</header>
+<script>
+  import Header from '$lib/components/Header.svelte'
+</script>
+
+<Header />
 
 <main>
   <slot />
