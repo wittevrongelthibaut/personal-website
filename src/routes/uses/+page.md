@@ -9,4 +9,5 @@
 ```js
 // JavaScript goes here,
 // And will be syntax-highlighted!
+Console.log("hello world");
 ```
