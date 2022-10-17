@@ -7,21 +7,21 @@
     <h1>Blog</h1>
       
     <ul>
-      {#each data.posts as post}
-        <li>
-          <Card post={post}/>
-        </li>
+      {#each data.posts as post, i}
+          <Card post={post} i={i}/>
       {/each}
     </ul>
 
     <style>
       h1{
         font-family: headings;
+        font-size: 2rem;
+        margin-bottom: 2rem;
       }
 
       ul{
           display: grid;
-          grid-template-columns: repeat(auto-fill,minmax(30rem,1fr));
+          grid-template-columns: repeat(auto-fill,minmax(25rem,1fr));
           gap: 2rem;
           padding: 0;
        }
