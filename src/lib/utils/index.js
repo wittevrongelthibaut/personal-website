@@ -16,3 +16,7 @@ export const fetchMarkdownPosts = async () => {
   
     return allPosts
 }
+
+export const dateFormater = (date) => {
+  return new Date(date).toLocaleDateString();
+}
