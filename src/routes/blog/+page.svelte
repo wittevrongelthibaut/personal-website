@@ -1,4 +1,5 @@
     <script>
+	import { dateFormater } from '$lib/utils/index.js';
         export let data
     </script>
     
@@ -12,7 +13,7 @@
               {post.meta.title}
             </a>
           </h2>
-          Published {post.meta.date}
+          Published {dateFormater(post.meta.date)}
         </li>
       {/each}
     </ul>
