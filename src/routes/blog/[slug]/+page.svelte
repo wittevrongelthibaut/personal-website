@@ -13,3 +13,12 @@
   <p>Published: {dateFormater(data.date)}</p>
   <svelte:component this={data.content} />
 </article>
+
+<style>
+  h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+</style>
