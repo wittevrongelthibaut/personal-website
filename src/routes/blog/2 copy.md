@@ -1,17 +1,16 @@
 ---
-title: Test post 1
+title: Test post 2
 author: Thibaut Wittevrongel
 date: 2022-10-16
 cover: https://static.scientificamerican.com/sciam/cache/file/1FCF0242-35AD-4E97-9558FBD4278568CD_source.jpg
-coverDescription: Code displayed on a screen
 description: About me
 tags: about
-topColor: ['#e6ed95']
+topColor: ['#649dfa']
 ---
 
 # Uses
 
-**Here's some stuff I use**
+**Second post**
 
 - SvelteKit
 - VS Code

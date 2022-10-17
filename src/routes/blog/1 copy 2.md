@@ -9,7 +9,7 @@ tags: about
 topColor: ['#e6ed95']
 ---
 
-# Uses
+## Uses
 
 **Here's some stuff I use**
 

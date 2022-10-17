@@ -6,7 +6,7 @@ cover: https://static.scientificamerican.com/sciam/cache/file/1FCF0242-35AD-4E97
 coverDescription: Code displayed on a screen
 description: About me
 tags: about
-topColor: ['#e6ed95']
+topColor: ['#e587ff']
 ---
 
 # Uses
