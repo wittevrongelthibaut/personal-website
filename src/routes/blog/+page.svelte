@@ -1,4 +1,5 @@
     <script>
+	import Card from './../../lib/components/Card.svelte';
 	import { dateFormater } from '$lib/utils/index.js';
         export let data
     </script>
@@ -8,12 +9,7 @@
     <ul>
       {#each data.posts as post}
         <li>
-          <h2>
-            <a href={post.path}>
-              {post.meta.title}
-            </a>
-          </h2>
-          Published {dateFormater(post.meta.date)}
+          <Card post={post}/>
         </li>
       {/each}
     </ul>
