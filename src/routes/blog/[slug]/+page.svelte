@@ -47,4 +47,10 @@
     margin-bottom: 2rem;
   }
 
+  @media only screen and (max-width: 30rem) {
+  article{
+      width: 100%;
+  }
+}
+
 </style>

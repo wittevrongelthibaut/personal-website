@@ -52,4 +52,9 @@
     p{
         margin-bottom: 1rem;
     }
+    @media only screen and (max-width: 30rem) {
+      article{
+          width: 96%;
+      }
+    }
 </style>
