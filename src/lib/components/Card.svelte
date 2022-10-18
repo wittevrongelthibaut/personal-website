@@ -42,6 +42,9 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
+    h2:hover{
+        color: var(--top-color);
+    }
     h3{
         font-family: 'light';
         color: var(--top-color);
