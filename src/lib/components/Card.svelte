@@ -30,7 +30,7 @@
         box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12);
         padding: 1rem;
         margin-bottom: 1rem;
-        background-color: #1c1b1b;
+        background-color: #383838;
     }
 
     article:hover{
@@ -52,7 +52,7 @@
     p{
         margin-bottom: 1rem;
     }
-    @media only screen and (max-width: 30rem) {
+    @media screen and (max-width: 30rem) {
       article{
           width: 96%;
       }
