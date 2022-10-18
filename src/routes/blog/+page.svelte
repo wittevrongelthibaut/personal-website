@@ -1,6 +1,5 @@
     <script>
-	      import Card from './../../lib/components/Card.svelte';
-	      import { dateFormater } from '$lib/utils/index.js';
+	      import Card from '$lib/components/Card.svelte';
         export let data
     </script>
     
