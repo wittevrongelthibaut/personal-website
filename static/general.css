@@ -1,0 +1,7 @@
+
+*,
+:before,
+:after {
+	box-sizing: border-box;
+	transition: all 0.2s cubic-bezier(0.8, 0.38, 0.09, 0.82);
+}
