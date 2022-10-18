@@ -47,7 +47,7 @@
     margin-bottom: 2rem;
   }
 
-  @media only screen and (max-width: 30rem) {
+  @media only screen and (max-width: 60rem) {
   article{
       width: 100%;
   }
