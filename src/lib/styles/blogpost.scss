@@ -29,7 +29,12 @@
 }
 
 @media screen and (max-width: 30rem) {
-    #content p{
-        font-size: 1rem;
+    #content {
+        h2 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 1rem;
+        }
     }
 }
