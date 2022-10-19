@@ -1,3 +1,15 @@
+<script>
+    import { name } from '$lib/config/config.js';
+</script>
+
+<svelte:head>
+    <title>Welcome to {name}'s website</title>
+    <meta name="description" content="Welcome to my website where all my blogposts, projects can be found!">
+    <meta property="og:title" content="Welcome to {name}'s website" />
+    <meta property="og:description" content="Welcome to {name}'s website"/>
+    <meta property="og:url" content="https://thibautwittevrongel.com"/>
+</svelte:head>
+
 <article>
     <h1>Welcome to my site!</h1>
     <p>Hello my name is Thibaut Wittevrongel and i would like to welcome you to my site!</p>

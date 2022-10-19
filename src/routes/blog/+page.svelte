@@ -1,7 +1,16 @@
 <script>
+	  import { name } from '$lib/config/config.js';
     import Card from '$lib/components/Card.svelte';
     export let data
 </script>
+
+<svelte:head>
+  <title>Welcome to {name}'s blog</title>
+  <meta name="description" content="Welcome to my blog where all my blogposts can be found!">
+  <meta property="og:title" content="Welcome to {name}'s blog" />
+  <meta property="og:description" content="Welcome to {name}'s blog" />
+	<meta property="og:url" content="https://thibautwittevrongel.com/blog" />
+</svelte:head>
 
 <h1>Blog</h1>
   

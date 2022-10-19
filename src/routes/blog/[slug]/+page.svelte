@@ -2,13 +2,17 @@
 	import { dateFormater } from '$lib/utils/index.js';
   import '$lib/styles/blogpost.scss';
   export let data;
-
+  console.log(JSON.stringify(data));
   const topColor = data.topColor
 </script>
 
 <svelte:head>
   <title>{data.title} - Thibaut Wittevrongel blog</title>
+  <meta name="description" content={data.description}>
+
   <meta property="og:title" content={data.title} />
+  <meta property="og:description" content={data.description}/>
+  <meta property="og:url" content={`https://thibautwittevrongel.com${data.currentRoute}`}/>
 </svelte:head>
   
 <article style="--top-color: {topColor}">
