@@ -24,13 +24,15 @@
     </article>
 </li>
 
-<style>
+<style lang="scss">
+    $background: #1B4D4C;
+    $accentcolor: #B0DDC2;
     article{
-        border-top: 2px solid var(--top-color);
+        border-top: 2px solid $accentcolor  ;
         box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12);
         padding: 1rem;
         margin-bottom: 1rem;
-        background-color: #383838;
+        background-color: $background;
     }
 
     article:hover{
@@ -43,11 +45,11 @@
         margin-bottom: 1rem;
     }
     h2:hover{
-        color: var(--top-color);
+        color: $accentcolor;
     }
     h3{
         font-family: 'light';
-        color: var(--top-color);
+        color: $accentcolor;
     }
     p{
         margin-bottom: 1rem;
