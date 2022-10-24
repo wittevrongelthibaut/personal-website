@@ -4,8 +4,6 @@
 
     export let post;
     export let i;
-
-    const topColor = post.meta.topColor[0]
 </script>
 
 <li in:fly={{
@@ -14,7 +12,7 @@
     delay: 200 * i,
     easing: backOut
 }}>
-    <article style="--top-color: {topColor}">
+    <article>
         <a href={post.path}>
             <h3>{post.meta.tags}</h3>
             <h2>{post.meta.title}</h2>

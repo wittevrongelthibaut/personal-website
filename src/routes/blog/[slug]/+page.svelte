@@ -2,8 +2,6 @@
 	import { dateFormater } from '$lib/utils/index.js';
   import '$lib/styles/blogpost.scss';
   export let data;
-  console.log(JSON.stringify(data));
-  const topColor = data.topColor
 </script>
 
 <svelte:head>
@@ -15,7 +13,7 @@
   <meta property="og:url" content={`https://thibautwittevrongel.com${data.currentRoute}`}/>
 </svelte:head>
   
-<article style="--top-color: {topColor}">
+<article>
   <h3>{data.tags}</h3>
   <h1>{ data.title }</h1>
   <section id='publishData'>
@@ -26,12 +24,14 @@
   </section>
 </article>
 
-<style>
+<style lang='scss'>
+  $accentColor: #B0DDC2;
+  $bordercolor: #7EB694;
   article{
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    border-top: 2px solid var(--top-color);
+    border-top: 2px solid $accentColor;
     padding: 1rem;
   }
   h1{
@@ -39,13 +39,13 @@
   }
   h3{
     font-family: 'light';
-    color: var(--top-color);
+    color: $accentColor;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
   #publishData{
-    color: gray;
+    color: $bordercolor;
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
