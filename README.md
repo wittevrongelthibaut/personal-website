@@ -46,3 +46,5 @@ Text color: #EAEBEB
 Background color: #1B4D4C
 
 Border color: #7EB694
+
+accent color: #B0DDC2;
