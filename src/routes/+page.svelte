@@ -1,5 +1,10 @@
 <script>
     import { name } from '$lib/config/config.js';
+    import { fly } from 'svelte/transition';
+    import { onMount } from 'svelte';
+
+    let ready = false;
+    onMount(() => ready = true);
 </script>
 
 <svelte:head>
@@ -11,9 +16,27 @@
 </svelte:head>
 
 <section id="hero">
-    <h1>Hello, my name is</h1>
-    <h2>Thibaut Wittevrongel.</h2>
-    <p>I am a software engineering student from Belgium. Currently, I am focused on learning to be a better developer at <a href="https://www.howest.be/">Howest</a>.</p>
+    {#if ready}
+    <h1 in:fly={{
+        y: 100,
+        x: 0,
+        delay: 200
+    }}>
+    Hello, my name is</h1>
+    <h2 in:fly={{
+        y: 100,
+        x: 0,
+        delay: 400
+    }}>
+    Thibaut Wittevrongel.</h2>
+    <p
+    in:fly={{
+        y: 100,
+        x: 0,
+        delay: 600
+    }}>
+    I am a software engineering student from Belgium. Currently, I am focused on learning to be a better developer at <a href="https://www.howest.be/">Howest</a>.</p>
+    {/if}
 </section>
 <section id='about'>
     <h1 class='lined-heading'>About me</h1>
