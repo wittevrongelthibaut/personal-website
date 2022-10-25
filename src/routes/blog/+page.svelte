@@ -34,9 +34,14 @@
       padding: 0;
    }
 
-   @media screen and (max-width: 60rem) {
+   @media screen and (max-width: 30rem) {
       ul{
         display: block;
+      }
+    }
+   @media screen and (max-width: 60rem) {
+      ul{
+        grid-template-columns: repeat(auto-fill,minmax(20rem,1fr));
       }
     }
 
