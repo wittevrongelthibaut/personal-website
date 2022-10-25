@@ -33,4 +33,11 @@
       gap: 2rem;
       padding: 0;
    }
+
+   @media screen and (max-width: 60rem) {
+      ul{
+        display: block;
+      }
+    }
+
   </style>
