@@ -2,7 +2,7 @@
     import { name } from '$lib/config/config.js';
     import { fly } from 'svelte/transition';
     import { onMount } from 'svelte';
-    import Saos from "saos";
+    import Saos from 'saos';
 
     let ready = false;
     onMount(() => ready = true);
