@@ -169,7 +169,7 @@
             }
     }
     section{
-        height: 100vh;
+        height: 75vh;
         padding: 100px 0px;
         margin: auto;
         h1{
