@@ -33,6 +33,7 @@
     margin-right: auto;
     border-top: 2px solid $accentColor;
     padding: 1rem;
+    margin-top: 5rem;
   }
   h1{
     font-size: 3rem;

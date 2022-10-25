@@ -22,6 +22,7 @@
 
 <style>
   h1{
+    padding-top: 5rem;
     font-family: headings;
     font-size: 2rem;
     margin-bottom: 2rem;
