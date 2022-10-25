@@ -22,7 +22,6 @@
 
 <style>
   h1{
-    padding-top: 5rem;
     font-family: headings;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -33,6 +32,7 @@
       grid-template-columns: repeat(auto-fill,minmax(25rem,1fr));
       gap: 2rem;
       padding: 0;
+      margin-bottom: 2rem;
    }
 
    @media screen and (max-width: 30rem) {
