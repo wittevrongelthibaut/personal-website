@@ -31,6 +31,7 @@
         padding: 1rem;
         margin-bottom: 1rem;
         background-color: $background;
+        min-height: 100%;
     }
 
     article:hover{
@@ -53,8 +54,8 @@
         margin-bottom: 1rem;
     }
     @media screen and (max-width: 30rem) {
-      article{
-          width: 96%;
+      li{
+        margin: auto;
       }
     }
 </style>
