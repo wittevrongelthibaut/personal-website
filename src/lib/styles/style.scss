@@ -1,5 +1,11 @@
 $background-main: #0A1A11;
 $generaltext: #EAEBEB;
+$accentcolor: #B0DDC2;
+* {
+  scrollbar-width: thin;
+    scrollbar-color: $accentcolor $background-main;
+}
+
 body {
     margin: 0;
     background: $background-main;
@@ -7,8 +13,17 @@ body {
     font-family: 'regular';
     width: 100%;
     min-height: 100%;
+    &::-webkit-scrollbar {
+      background-color: $background-main;
+      width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $accentcolor;
+      border-radius: 20px;
+      outline: none;
+    }
   }
-  
+
 main {
   margin: 0px auto;
   width: 100%;
