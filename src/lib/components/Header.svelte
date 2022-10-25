@@ -26,8 +26,6 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      position: fixed;
-      top: 0;
       width: 100%;
     }
     
