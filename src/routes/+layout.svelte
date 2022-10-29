@@ -2,6 +2,7 @@
   import Header from '$lib/components/Header.svelte'
   import '$lib/styles/style.scss'
   import { fade } from 'svelte/transition'
+	import SocialLinks from '../lib/components/SocialLinks.svelte';
   
   export let data
 </script>
@@ -13,3 +14,5 @@
     <slot />
   </main>
 {/key}
+
+<SocialLinks />
