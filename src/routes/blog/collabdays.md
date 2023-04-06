@@ -4,7 +4,7 @@ author: Thibaut Wittevrongel
 date: 2022-10-18
 cover: https://www.collabdays.org/wp-content/uploads/2020/01/collabdays-web.png
 coverDescription: CollabDays 2022 In Brussels
-description: About me
+description: My day at CollabDays 2022 in Brussels.
 tags: conference
 ---
 
@@ -26,7 +26,7 @@ Together with 3 of my fellow students we went to CollabDays. On the 15th of Octo
 
 ## 📝 Calling APIs, Consuming Services and Exposing Data using Power Automate
 
-<Image imgUrl="https://pbs.twimg.com/media/FfIQ6h8XoAEUhvJ?format=jpg&name=large" altText="Ahmad Najjar giving us a quick demo" size="small" />
+<Image imgUrl="/images/collabdaysFirstSession.jpeg" altText="Ahmad Najjar starting the session" size="small" />
 
 The first talk we attended was titled 'Calling APIs, Consuming Services and Exposing Data using Power Automate'. This talk was given by Ahmad Najjar. He showed us in a demo how easy it was to use Power Automate to create your own API and how to call existing API's. Mister Najjar also showed some examples of apps he created with Power Automate and I must say I am quite surprised with the capabilities of the platform! I will definitely look into it more in the future.
 
