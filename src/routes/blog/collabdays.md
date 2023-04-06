@@ -3,7 +3,7 @@ title: My visit to CollabDays!
 author: Thibaut Wittevrongel
 date: 2022-10-18
 cover: https://www.collabdays.org/wp-content/uploads/2020/01/collabdays-web.png
-coverDescription: Code displayed on a screen
+coverDescription: CollabDays 2022 In Brussels
 description: About me
 tags: conference
 ---
