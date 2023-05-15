@@ -36,7 +36,7 @@
         x: 0,
         delay: 600
     }}>
-    I am a software engineering student from Belgium. Currently, I am focused on learning to be a better developer at <a href="https://www.howest.be/">Howest</a>.</p>
+    I am a software engineering student from Belgium. Currently, I am focused on learning to be a better developer at <a href="https://www.howest.be/" target="_blank">Howest</a>.</p>
     {/if}
 </section>
 <Saos animation={"tilt-in-left-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"} once>

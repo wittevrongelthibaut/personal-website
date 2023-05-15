@@ -25,6 +25,9 @@
         <li transition:fly={{ y: -15, delay: 50 * 4}}>
           <a href="/blog">Blog</a>
         </li>
+        <li transition:fly={{ y: -15, delay: 50 * 5}}>
+          <a href="/files/CV_Wittevrongel_Thibaut.pdf" target="_blank">Resume</a>
+        </li>
       </nav>
       <div class="bar" transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
     {/if}
@@ -47,6 +50,9 @@
         {/if}
         <li>
           <a href="/blog">Blog</a>
+        </li>
+        <li>
+          <a href="/files/CV_Wittevrongel_Thibaut.pdf" target="_blank" >Resume</a>
         </li>
       </ul>
     </nav>
@@ -87,7 +93,25 @@
         margin-left: -1px;
       }
       li:nth-last-child(1) {
+        border: none;
         margin-left: auto;
+        a{
+            border: $accentColor 1px solid;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            &:hover{
+                background-color: rgba(176, 221, 194, 0.2);;
+                outline: none;
+            }
+            &::after{
+                position: inherit;
+            }
+            &::hover::after{
+                position: inherit;
+            }
+        }
       }
 
     }
