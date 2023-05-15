@@ -3,6 +3,7 @@
     import { fly } from 'svelte/transition';
     import { onMount } from 'svelte';
     import Saos from 'saos';
+    import ProjectCard from '../lib/components/ProjectCard.svelte';
 
     let ready = false;
     onMount(() => ready = true);
@@ -67,7 +68,10 @@
 <Saos animation={"tilt-in-right-1 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"} once>
     <section id='projects'>
         <h1 class='lined-heading'>Projects</h1>
-        <p>Coming Soon...</p>
+        <p>Here are some of the projects I have worked on:</p>
+        <ul>
+            <ProjectCard post={{title: "E-Portefolio", description: "This website has been created with SvelteKit", cover: "/images/PortefolioPicture.png", coverDescription: "Portfolio cover", path: "https://github.com/wittevrongelthibaut/personal-website"}}/>
+        </ul>
     </section>
 </Saos>
 <Saos animation={"tilt-in-left-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"} once>
