@@ -70,7 +70,7 @@
         <h1 class='lined-heading'>Projects</h1>
         <p>Here are some of the projects I have worked on:</p>
         <ul>
-            <ProjectCard post={{title: "E-Portefolio", description: "This website has been created with SvelteKit", cover: "/images/PortefolioPicture.png", coverDescription: "Portfolio cover", path: "https://github.com/wittevrongelthibaut/personal-website"}}/>
+            <ProjectCard post={{title: "E-Portfolio", description: "This website has been created with SvelteKit", cover: "/images/PortefolioPicture.png", coverDescription: "Portfolio cover", path: "https://github.com/wittevrongelthibaut/personal-website"}}/>
         </ul>
     </section>
 </Saos>
