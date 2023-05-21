@@ -14,7 +14,7 @@ tags: hackathon
 
 <Image imgUrl="https://res.cloudinary.com/tesell/image/upload/c_scale,q_56,w_1279/v1672451642/blog/htf2022_byiyvr.webp" altText="Hack the Future 2022" size="large" />
 
-# My first hackathon experience at Hack the Future 2022
+## My first hackathon experience at Hack the Future 2022
 
 In this blog post, I will go over my first hackathon experience at Hack the Future 2022, a hackathon organized by the Cronos Group. I will go over the challenge, the team I was in and the project we made.
 
@@ -57,7 +57,7 @@ The start was a bit slow since we had to figure out how AWS worked, as we had ne
 
 But after a while we got the hang of it and started to work on the challenge. First, we had to figure out how we could send messages from our AWS Lambda function to Teams or SendGrid.
 
-After that we successfully sent messages to the respective destination, we had to figure out how we would translate the messages from English to Pig-Latin. To complete this, we wrote a function that would translate the messages from English to Pig-Latin.
+After we successfully sent messages to the respective destination, we had to figure out how we would translate the messages from English to Pig-Latin. To complete this, we wrote a function that would translate the messages from English to Pig-Latin.
 
 The third step was to check if the message was in English or not. If it was not in English, we had to translate it to English first. To figure out if the message was in English or not, we used the AWS Comprehend service. This would return the dominant language of the message. If the dominant language was not English, we would translate it to English using the AWS Translate Service.
 
@@ -73,7 +73,7 @@ To complete the challenge, we used the following technologies:
 - AWS Translate
 - SendGrid
 - Teams
-- NodeJS
+- Node.js
 
 ## 🏆 The Results - 204NoContent - The Winning Team
 
@@ -83,6 +83,6 @@ We could complete the challenge within time and to our surprise we were the fast
 
 ## 📝 Conclusion
 
-This was my first hackathon experience and I really enjoyed it. I learned a lot about AWS and how to use it. I also met a lot of new people and had a lot of fun. I would definitely recommend this hackathon to anyone who is interested in participating in a hackathon.
+This was my first hackathon experience and I really enjoyed it. I learned a lot about AWS and how to use it. I also met a lot of new people and had a lot of fun. Furthermore, I would definitely recommend this hackathon to anyone who is interested in participating in a hackathon.
 
-
+Djelal and I also talked to the company i8c who came up with the challenge about potential internship opportunities or job opportunities. We will see what the future brings!

@@ -12,7 +12,7 @@ tags: conference
     import Image from '$lib/components/Image.svelte';
 </script>
 
-# Participating in the delaware Technology Event
+## Participating in the delaware Technology Event
 
 <Image imgUrl="/images/dlwTechevent.png" altText="delaware Technology Event 2023" size="large" />
 

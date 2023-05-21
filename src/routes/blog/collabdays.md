@@ -12,7 +12,7 @@ tags: conference
     import Image from '$lib/components/Image.svelte';
 </script>
 
-# My visit to CollabDays!
+## My visit to CollabDays!
 
 In this blog post, I will tell you about my visit to CollabDays. I will tell you about the talks I attended and the things that I have learned!
 
@@ -22,7 +22,7 @@ In this blog post, I will tell you about my visit to CollabDays. I will tell you
 
 ## 🚂 The way there
 
-Together with 3 of my fellow students we went to CollabDays. On the 15th of October, we took a very early train to go to Brussels. We arrived a bit late since there were some problems on the train tracks, but we arrived in time and were welcomed with a nice breakfast. After that, we went to the first talk of the day.
+Together with 3 of my fellow students we went to CollabDays. On the 15th of October, we took a very early train to go to Brussels. We arrived a bit later than expected since there were some problems on the train tracks, but we arrived in time for the event and were welcomed with a nice breakfast. After that, we went to the first talk of the day.
 
 ## 📝 Calling APIs, Consuming Services and Exposing Data using Power Automate
 
@@ -65,7 +65,7 @@ Next up, we followed the session called 'Real World Infrastructure Deployment wi
 <Image imgUrl="https://pbs.twimg.com/media/FfHfcQ0WIAE7MKZ?format=jpg&name=large" altText="Feline Parein
 giving us a talk about Azure DevOps" size="medium" />
 
-The last session we attended was about CI/CD. It is a term we hear very often and it struck our interest. The session was given by Feline Parein. In this session, we received a lot of information about a tool from Microsoft called 'Azure DevOps'. This tool is used to automate the deployment of your applications. She demonstrated the use of this tool through a business case she had a while back. The way she showed how powerful Azure DevOps is by deploying 170 solutions and 170 applications all starting from 1 master solution. This was very impressive and I will definitely look into this tool more in the future.
+The last session we attended was about CI/CD. It is a term we hear very often and it struck our interest. The session was given by Feline Parein. In this session, we received a lot of information about a tool from Microsoft called 'Azure DevOps'. This tool is used to automate the deployment of your applications. She demonstrated the use of this tool through a business case she had a while back. The way she showed how powerful Azure DevOps is by deploying 170 solutions and 170 applications all starting from 1 master solution. This was very impressive, and I will definitely look into this tool more in the future.
 
 ## 📝 During the breaks
 
@@ -73,6 +73,6 @@ During the breaks, we had the opportunity to talk to the speakers and to ask the
 
 We also had the opportunity to talk to sponsors of the event. It was nice to learn about all the different companies that were present at the event. For example, we talked with a company called CTG who is a company that offers IT services. They were very nice and gave us some information about the company and the services they offer. They also talked about potential internships and jobs that they offer. Overall, a very nice experience!
 
-## 🤔 My Thougths about the day
+## 🤔 My Thoughts about the day
 
 Overall, I had a very nice day at CollabDays. I learned a lot of new things and I got to meet a lot of new people. It was the first time I attended a conference like this and I really enjoyed it. Very curious to see what the next one will be like!

@@ -15,7 +15,7 @@ tags: development
 
 <Image imgUrl="/images/SvelteKitPicture.png" altText="SvelteKit" size="large" />
 
-# How I created my blog using SvelteKit
+## How I created my blog using SvelteKit
 
 Hello and welcome to my first blog post. In this blog post, I will explain how I created my blog using SvelteKit and all the other technologies I used to create it.
 
@@ -29,7 +29,7 @@ As a software engineering student, I am always looking for new technologies to t
 
 ## 🚀 How did I start?
 
-Firstly, I followed the Svelte tutorial on the Svelte website to get a general understanding of how Svelte works. After that, I looked at the SvelteKit documentation to get a general understanding of how SvelteKit works.
+Firstly, I followed the <Link url="https://svelte.dev/tutorial/basics">Svelte tutorial</Link> on the <Link url="https://svelte.dev/">Svelte</Link> website to get a general understanding of how Svelte works. After that, I looked at the <Link url="https://kit.svelte.dev/">SvelteKit</Link> documentation to get a general understanding of how SvelteKit works.
 
 Now, the important question was: "How do I start creating my blog?". So that's why I did the first thing every developer does when he/she starts on creating a new project. GOOGLING!
 
@@ -42,7 +42,7 @@ The guide linked above explains everything you need to know to create a blog usi
 - Sass
 - Markdown
 
-After following the guide, the only thing that is left is just to style your blog and to add all the content you to add.
+After following the guide, the only thing that is left is just to style your blog and to add all the content you want to add.
 
 ## 📝 How do I add content to my blog?
 
@@ -86,7 +86,7 @@ I am very happy with the result of my blog, and I am very happy that I chose to 
 
 Setting up the server was also a very nice experience and I learned a lot from it.
 
-Also all the code is available in this <Link url="https://github.com/wittevrongelthibaut/personal-website">GitHub repository</Link>.
+Also, all the code is available in this <Link url="https://github.com/wittevrongelthibaut/personal-website">GitHub repository</Link>.
 
 
 

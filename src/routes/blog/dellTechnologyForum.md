@@ -12,7 +12,7 @@ tags: conference
     import Image from '$lib/components/Image.svelte';
 </script>
 
-# My visit to the Dell Technology Forum!
+## My visit to the Dell Technology Forum!
 
 In this blog post, I will tell you about my visit to the Dell Technology Forum. I will tell you about the talks I attended and the things that I have learned!
 
