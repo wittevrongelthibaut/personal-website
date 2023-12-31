@@ -37,7 +37,7 @@
         x: 0,
         delay: 600
     }}>
-    I am a software engineering student from Belgium. Currently, I am focused on learning to be a better developer at <a href="https://www.howest.be/" target="_blank">Howest</a>.</p>
+    I am a software engineer from Belgium. Currently, working as a business analyst in the SAP development team at <a href="https://www.delaware.pro" target="_blank">delaware</a>.</p>
     {/if}
 </section>
 <Saos animation={"tilt-in-left-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"} once>
@@ -49,7 +49,7 @@
             I have always been interested on how they work and how I could create something with them.
         </p>
         <p>
-            This lead to me studying software engineering at Howest, where I am currently in my final year.
+            This led to me studying software engineering at Howest, where I graduated.
             At Howest I have learned a lot about software development and how to work in a team.
         </p>
         <p>
