@@ -14,22 +14,22 @@
 
     {#if open}
       <nav id='mobile-nav'>
-        <li transition:fly={{ y: -15, delay: 50}}>
+        <li transition:fly|global={{ y: -15, delay: 50}}>
           <a href="/">Home</a>
         </li>
         {#each ['About', 'Projects', 'Contact'] as link, i}
-        <li transition:fly={{ y: -15, delay: 50 * i+1 }}>
+        <li transition:fly|global={{ y: -15, delay: 50 * i+1 }}>
           <a href="/#{link.toLowerCase()}">{link}</a>
         </li>
         {/each}
-        <li transition:fly={{ y: -15, delay: 50 * 4}}>
+        <li transition:fly|global={{ y: -15, delay: 50 * 4}}>
           <a href="/blog">Blog</a>
         </li>
-        <li transition:fly={{ y: -15, delay: 50 * 5}}>
+        <li transition:fly|global={{ y: -15, delay: 50 * 5}}>
           <a href="/files/CV_Wittevrongel_Thibaut.pdf" target="_blank">Resume</a>
         </li>
       </nav>
-      <div class="bar" transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
+      <div class="bar" transition:scale|global={{ duration: 750, easing: quadOut, opacity: 1 }} />
     {/if}
   </div>
     <nav id='desktop'>

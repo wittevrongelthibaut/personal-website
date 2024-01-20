@@ -19,20 +19,20 @@
 
 <section id="hero">
     {#if ready}
-    <h1 in:fly={{
+    <h1 in:fly|global={{
         y: 100,
         x: 0,
         delay: 200
     }}>
     Hello, my name is</h1>
-    <h2 in:fly={{
+    <h2 in:fly|global={{
         y: 100,
         x: 0,
         delay: 400
     }}>
     Thibaut Wittevrongel.</h2>
     <p
-    in:fly={{
+    in:fly|global={{
         y: 100,
         x: 0,
         delay: 600

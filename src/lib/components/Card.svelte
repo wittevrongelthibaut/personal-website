@@ -6,7 +6,7 @@
     export let i;
 </script>
 
-<li in:fly={{
+<li in:fly|global={{
     y: 100,
     x: 0,
     delay: 200 * i,

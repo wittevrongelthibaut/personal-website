@@ -10,7 +10,7 @@
 <Header />
 
 {#key data.currentRoute}
-  <main in:fade={{ duration: 150, delay: 200 }} out:fade={{ duration: 200 }}>
+  <main in:fade|global={{ duration: 150, delay: 200 }} out:fade|global={{ duration: 200 }}>
     <slot />
   </main>
 {/key}
