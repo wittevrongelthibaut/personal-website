@@ -10,8 +10,9 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "^1.0.0",
-		"@sveltejs/kit": "^1.0.0",
+		"@sveltejs/adapter-node": "^2.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"autoprefixer": "^10.4.12",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
@@ -24,7 +25,7 @@
 		"svelte": "^4.0.0",
 		"svelte-hamburgers": "^4.0.1",
 		"svelte-preprocess": "^5.0.3",
-		"vite": "^4.5.2"
+		"vite": "^5.0.0"
 	},
 	"type": "module"
 }
